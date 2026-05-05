@@ -6,5 +6,9 @@ namespace Dsw2026Ej8
 {
     internal class Problema_5
     {
+        public decimal ObtenerImporteFinal (Sale sale)
+        {
+            return sale.CalculateTotal;
+        }
     }
 }

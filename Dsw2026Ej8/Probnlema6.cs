@@ -6,5 +6,9 @@ namespace Dsw2026Ej8
 {
     internal class Probnlema6
     {
+        public string NormalizarCodigoProducto(string code)
+        {
+            return Extensions.ToProductCode(code);
+        }
     }
 }

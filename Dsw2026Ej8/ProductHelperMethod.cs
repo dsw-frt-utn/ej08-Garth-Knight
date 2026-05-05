@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Class1
+    public partial class ProductHelper
     {
+        public string ObtenerEtiquetaProducto (long code, string description, decimal price)
+        {
+            return $"[{code}] {description} - {FormatearPrecio(price)}{_moneda}";
+        }
     }
 }
